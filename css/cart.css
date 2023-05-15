@@ -1,0 +1,81 @@
+#allProduct{
+    width: 100%;
+    height: 84%;
+    padding-top: 60px;
+    padding-bottom: 200px;
+}
+
+.product {
+    height: 190px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* centra verticalmente gli elementi */
+    gap: 50px; /* spazio tra i contenitori */
+    margin: 30px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
+
+  }
+  .product-text{
+    max-width: 400px;
+  }
+
+.img{
+    width: 150px;
+  }
+ 
+  
+  .remove-link {
+    text-decoration: none;
+    color: #262626;
+    background-color: red;
+    padding: 5px;
+    width: 130px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .remove-link:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;  
+ 
+  }
+  #confermBuy{
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 78px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+  }
+  #confermBuy a{
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 6px;
+    background-color: #262626;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    
+  }
+  
+  #confermBuy a:hover{
+    background-color: #262626d9;
+  }
+
+
+  @media only screen and (max-width: 793.9px) {
+    #confermBuy{
+      top: 134px;
+    }
+    #allProduct{
+      
+      padding-top: 120px;
+  }
+   }
